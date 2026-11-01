@@ -1,0 +1,3 @@
+function declaration--> when we declare a function using keyword function and some name of it
+function expression--> when we store a function in variable using assignment operator
+** We can pass functions as a parameter to another function just like  a varible (first class function).

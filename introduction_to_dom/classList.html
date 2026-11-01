@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="myDiv" class="content visible">Hello, world!</div>
+</body>
+<script>
+    // Get the element
+var div = document.getElementById('myDiv');
+
+// Add a new class
+div.classList.add('highlight');
+
+// Remove a class
+div.classList.remove('visible');
+
+
+// Check if a class exists
+if (div.classList.contains('content')) {
+    console.log('The div has a "content" class.');
+}
+else{
+    console.log('The div does not has a "content" class.');
+}
+</script>
+</html>

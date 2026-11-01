@@ -1,0 +1,8 @@
+object to string--> JSON.stringify(obj);
+str to object-->JSON.parse(str);
+-->Use case: localstorage(always store obj in stringify format)
+
+// SHALLOW COPY //
+when one object holds refernce to another object
+// DEEP COPY //
+when we complelty clone one object to another object

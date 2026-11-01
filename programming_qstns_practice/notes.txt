@@ -1,0 +1,4 @@
+## The Object.fromEntries() static method in JavaScript transforms a list of key-value pairs
+ (an iterable, such as an Array or a Map) into a new object.
+It performs the reverse operation of Object.entries(), which converts an 
+object into a list of key-value pairs. 

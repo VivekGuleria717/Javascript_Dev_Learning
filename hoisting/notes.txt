@@ -1,0 +1,15 @@
+Execution context= creation phase + execution phase
+// Creation phase
+- Global/window object gets created
+- setup memory heap for storing variable and functions(function gets stored with whole body)
+- initialize fun and varibale declartion with undefined
+
+// code exec phase
+- in this pahse values get assigned to variables and functions gets executed
+- for new functions again new context gets created
+
+
+//Temproral Dead Zone (let and const): it's time b/w declaration and initialization of let and const.
+(or) TDZ is the term used to describe the state where variable are in the scope but they are not declared yet.
+
+//let and const variables get's hoisted in TDZ

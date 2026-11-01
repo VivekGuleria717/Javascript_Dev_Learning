@@ -1,0 +1,3 @@
+let and const are block scope where as var is function scope
+// variable shadowing //
+

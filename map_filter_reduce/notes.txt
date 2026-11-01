@@ -1,0 +1,13 @@
+map vs foreach
+- map return new array it doesnt modify actual array,
+-in map we can chain other methods further,but not in case of foreach
+-foreach return undefined, also it modifies original array
+
+// MAP //
+=> used to create new array form existing array by applying function to each elem of first array
+
+// Filter //
+-Filter--> return those elem to output array which fulfill the condition.
+
+//Reduce//
+- if user forgot to provide inital value then reduce takes first elem of array as initial val and from 2nd elem consider accumlator

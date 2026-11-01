@@ -1,0 +1,6 @@
+Sync programming---> code executes line by line(JS is single threaded)
+Async--> few task takes longer to execute or return response in those cases we don't want to hold other code execution, so to achieve this we use some 
+mechanism(settimeout, async/await, promise etc) to achieve asyc execution of code.
+
+.....> Promises are always async
+
